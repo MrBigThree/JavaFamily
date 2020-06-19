@@ -246,7 +246,7 @@ Java8在同样的前提下并不会引起死循环，原因是扩容转移后前
 
 我想起来了面试官！
 
-因为在java中，所有的对象都是继承于Object类。Ojbect类中有两个方法equals、hashCode，这两个方法都是用来比较两个对象是否相等的。
+因为在java中，所有的对象都是继承于Object类。Object类中有两个方法equals、hashCode，这两个方法都是用来比较两个对象是否相等的。
 
 在未重写equals方法我们是继承了object的equals方法，**那里的 equals是比较两个对象的内存地址**，显然我们new了2个对象内存地址肯定不一样
 
@@ -312,5 +312,3 @@ HashMap常见面试题：
 ------
 
 > 文章每周持续更新，可以微信搜索「 **三太子敖丙** 」第一时间阅读和催更（比博客早一到两篇哟），本文 **GitHub** [https://github.com/JavaFamily](https://github.com/AobingJava/JavaFamily) 已经收录，有一线大厂面试点思维导图，也整理了很多我的文档，欢迎Star和完善，大家面试可以参照考点复习，希望我们一起有点东西。
-
-![](https://tva1.sinaimg.cn/large/006tNbRwly1g9ppafm401j30m80rkwn6.jpg)
